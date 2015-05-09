@@ -4,7 +4,7 @@ Donate link: http://wpdevelopersclub.com
 Tags: meta, post meta, user meta, duplicate meta, database cleanup, cleanup, clean up, database
 Requires at least: 3.5
 Tested up to: 4.2.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,8 @@ Cleanup Duplicate Meta gives you a tool to check for and delete duplicate Post a
 
 There are times when your database gets filled up with duplicate entries that you may not want.  Cleanup Duplicate Meta allows you to check for any duplicates in either the Post Meta or User Meta tables.  Then if you want to get rid of them, simply click on the Cleanup button and Cleanup Duplicate Meta deletes the duplicates leaving either the first or last meta (you select which).
 
-The interface is simple and easy to use.
+The interface is simple and easy to use:
+
 1. 'Check for Duplicates' queries the database and then displays all the duplicates found.
 2. 'Count Duplicates' counts all the duplicates found in the database (i.e. a total count).
 3. The 'Cleanup' buttons trigger a SQL query to run, which deletes each of the duplicate entries, leaving either the first or last one (per your selection) in the database.  All non-duplicates remain untouched by the plugin.
@@ -69,8 +70,15 @@ Nothing.  Cleanup Duplicate Meta does not touch non-duplicates.  Therefore you'r
 
 == ChangeLog ==
 
+= Version 1.0.2 =
+
+* Added in missing files to repo
+
 = Version 1.0.1 =
 
 * First release
 
 == Upgrade Notice ==
+
+= Version 1.0.2 =
+Please update this plugin as a key class file was missing from the initial release.
