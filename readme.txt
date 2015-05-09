@@ -4,7 +4,7 @@ Donate link: http://wpdevelopersclub.com
 Tags: meta, post meta, user meta, duplicate meta, database cleanup, cleanup, clean up, database
 Requires at least: 3.5
 Tested up to: 4.2.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -70,8 +70,15 @@ Nothing.  Cleanup Duplicate Meta does not touch non-duplicates.  Therefore you'r
 
 == ChangeLog ==
 
+= Version 1.0.2 =
+
+* Added in missing files to repo
+
 = Version 1.0.1 =
 
 * First release
 
 == Upgrade Notice ==
+
+= Version 1.0.2 =
+Please update this plugin as a key class file was missing from the initial release.
